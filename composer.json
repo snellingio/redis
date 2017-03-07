@@ -1,0 +1,25 @@
+{
+    "name": "snelling/redis",
+    "description": "Simple redis wrapper",
+    "keywords": ["redis", "snelling", "onroi"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Snelling",
+            "email": "sam@onroi.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": "7.*",
+        "predis/predis": "^1.1"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Snelling\\": "src/"
+        }
+    }
+}
